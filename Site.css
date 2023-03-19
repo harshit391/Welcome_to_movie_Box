@@ -6,7 +6,8 @@
 
 .SiteBody{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url("pexels-pixabay-220067.jpg");
+    background-image: url("BackBackground.jpg");
+    background-repeat: repeat-y;
 }
 
 #Welcome{
@@ -96,7 +97,7 @@ li {
 
 .national {
     left: 35vw;
-    top: 75vw;
+    top: 80vw;
     position: absolute;
     color: aqua;
     padding: 1vw;
@@ -113,7 +114,7 @@ li {
 
 #nationalimage{
     left: 5vw;
-    top: 85vw;
+    top: 90vw;
     position: absolute;
     box-shadow: 5px 5px 50px rgb(0, 255, 0);
     transition: 0.3s;
@@ -135,9 +136,8 @@ li {
     font-size: 1.3vw;
 }
 
-.internationalfactaboutmovies{
+.internatinalfactaboutmovies{
     list-style-type: none;
-    padding: 1vw;
 }
 
 #fact1international{
